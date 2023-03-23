@@ -1,0 +1,35 @@
+svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.task .task-input {
+  display: none;
+}
+
+.task.editting .task-label {
+  display: none;
+}
+
+.task.editting .task-input {
+  display: block;
+}
+
+.task .save-btn {
+  display: none;
+}
+
+.task.editting .save-btn {
+  display: block;
+}
+
+.task.editting .edit-btn {
+  display: none;
+}
+
+.select-container {
+  max-width: 300px;
+  width: 100%;
+  margin-left: auto;
+}
